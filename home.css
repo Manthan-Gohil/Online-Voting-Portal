@@ -128,6 +128,10 @@ main .left{
 .icons a{
     text-decoration: none;
 }
+.icons{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
 .icons i{
     font-size: 25px;
     margin-bottom: 4vh;
@@ -140,7 +144,7 @@ main .right{
 .right .image{
     height: 90%;
     width: 90%;
-    background: url("home.jpg");
+    background: url("images/homepageimg.jpg");
     background-size: cover;
     background-position: center;
     margin: auto;
