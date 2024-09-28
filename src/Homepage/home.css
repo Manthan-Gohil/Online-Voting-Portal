@@ -144,7 +144,7 @@ main .right{
 .right .image{
     height: 90%;
     width: 90%;
-    background: url("images/homepageimg.jpg");
+    background: url("/Online-Voting-Portal/images/home.jpg");
     background-size: cover;
     background-position: center;
     margin: auto;
