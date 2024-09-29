@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#7E98F5,#fff);
+    font-family: "Spectral", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+h1{
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+.image{
+    height: 80px;
+    width: 80px;
+}
+.image .profile-pic{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+}
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ffffff40;
+    max-width: 400px;
+    height: 70%;
+    width: 100%;
+    position: relative;
+    top: 10%;
+    left: 31%;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+}
+
+.description h3{
+    text-align: center;
+    margin-top: 17px;
+}
+
+.detail{
+    margin-top: 15px ;
+}
+.detail h5{
+    padding-top: 5px;
+    font-weight: 550;
+}
+.bottom{
+    margin-top: 40px;
+}
+.bottom button{
+    font-family:"Arial, Helvetica, sans-serif";
+    background-color: #7E98F5;
+    color: white;
+    border: 0.4px solid black;
+    padding: 8px;
+    border-radius: 14px;
+    margin-right:5px;
+    
+}
+.bottom a{
+    font-size: 8px;
+    color: #455EEF;
+}
